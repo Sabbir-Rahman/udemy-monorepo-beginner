@@ -1,5 +1,5 @@
 {
-  "name": "packages",
+  "name": "udemy-monorepo-beginner",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,12 +10,10 @@
   "author": "",
   "license": "ISC",
   "private": true,
+  "bin": "index.js",
   "workspaces": {
     "packages": [
       "packages/*"
-    ],
-    "nohoist": [
-      "**/package-name"
     ]
   }
 }

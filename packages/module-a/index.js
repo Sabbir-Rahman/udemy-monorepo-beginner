@@ -1,3 +1,3 @@
 console.log('I am module a')
 
-require('module-b')
+require('@udemy-monorepo-beginner/module-b')
